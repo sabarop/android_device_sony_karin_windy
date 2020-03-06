@@ -26,6 +26,10 @@ PRODUCT_AAPT_PREBUILT_DPI := xhdpi hdpi
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1600
 
+# Dalvik/HWUI
+#$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
+#$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
+
 # init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/bin/init.qcom.power.sh:system/bin/init.qcom.power.sh
