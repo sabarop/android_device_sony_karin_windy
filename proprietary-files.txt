@@ -582,3 +582,9 @@ lib64/libplstorage.so
 lib64/libsuntory.so
 lib64/libsuntory_utils.so
 lib64/libtee.so
+
+# Camera Extra's (2018-11-19 bt)
+vendor/lib/libchromaflash.so
+vendor/lib/liboptizoom.so
+vendor/lib/libtrueportrait.so
+vendor/lib/libubifocus.so
