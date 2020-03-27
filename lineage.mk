@@ -22,6 +22,6 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 PRODUCT_NAME := lineage_karin_windy
 
 # Use the latest approved GMS identifiers
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=Sony/karin_windy/karin_windy:7.1.1/N-MR1-KITAKAMI-170609-1025/1:user/dev-keys \
-    PRIVATE_BUILD_DESC="Sony/karin_windy/karin_windy:7.1.1/N-MR1-KITAKAMI-170609-1025/1:user/dev-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=karin_windy
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="karin_windy-user 8.1.0 OPM7-181205-001 1 test-keys"
+BUILD_FINGERPRINT := Sony/karin_windy/karin_windy:8.1.0/OPM7.181205.001/1:user/test-keys
