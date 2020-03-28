@@ -30,5 +30,11 @@ TARGET_OTA_ASSERT_DEVICE := SGP712,karin_windy
 # Boot image/kernel
 TARGET_KERNEL_CONFIG := kitakami_karin_windy_defconfig
 
+# FDroid
+WITH_FDROID := true
+
+# microG
+WITH_MICROG := true
+
 # Inherit from the proprietary version
 -include vendor/sony/karin_windy/BoardConfigVendor.mk
