@@ -518,7 +518,7 @@ vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libxml.so
 
 # Sensors
-etc/sensors/hals.conf:vendor/etc/sensors/hals.conf
+etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
 bin/sensors.qcom
 vendor/lib/libdataitems.so
