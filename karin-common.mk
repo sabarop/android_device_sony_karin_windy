@@ -84,6 +84,7 @@ PRODUCT_COPY_FILES += \
 # WLAN
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wlan/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal
+
 # FDroid
 $(call inherit-product-if-exists, vendor/fdroid/fdroid-vendor.mk)
 
