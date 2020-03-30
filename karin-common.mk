@@ -26,10 +26,6 @@ PRODUCT_AAPT_PREBUILT_DPI := xhdpi hdpi
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1600
 
-# Dalvik/HWUI
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
-#$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
-
 # init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/bin/init.qcom.power.sh:system/bin/init.qcom.power.sh
@@ -65,8 +61,8 @@ PRODUCT_COPY_FILES += \
 
 # NFC configs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    $(LOCAL_PATH)/configs/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
+    $(LOCAL_PATH)/configs/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    $(LOCAL_PATH)/configs/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
 # RIL
 PRODUCT_COPY_FILES += \
@@ -87,6 +83,3 @@ PRODUCT_COPY_FILES += \
 
 # FDroid
 $(call inherit-product-if-exists, vendor/fdroid/fdroid-vendor.mk)
-
-# microG
-$(call inherit-product-if-exists, vendor/microg/microg-vendor.mk)
