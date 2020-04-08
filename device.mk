@@ -20,9 +20,6 @@ $(call inherit-product, device/sony/karin_windy/karin-common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/sony/karin_windy/karin_windy-vendor.mk)
 
-# FDroid
-$(call inherit-product-if-exists, vendor/fdroid/fdroid-vendor.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
