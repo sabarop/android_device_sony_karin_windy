@@ -177,6 +177,11 @@ vendor/lib/libchromatix_s5k3m2xx_postproc.so
 vendor/lib/libchromatix_s5k3m2xx_preview.so
 vendor/lib/libchromatix_s5k3m2xx_snapshot.so
 vendor/lib/libchromatix_s5k3m2xx_video_4k.so
+vendor/lib/libchromaflash.so
+vendor/lib/liboptizoom.so
+vendor/lib/libubifocus.so
+vendor/lib/libtrueportrait.so
+vendor/lib/libseemore.so
 
 # Camera firmware
 etc/firmware/cpp_firmware_v1_1_1.fw
