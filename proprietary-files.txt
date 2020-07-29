@@ -21,6 +21,10 @@ vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
+vendor/lib/libaptXHD_encoder.so
+vendor/lib/libaptX_encoder.so
+vendor/lib64/libaptXHD_encoder.so
+vendor/lib64/libaptX_encoder.so
 
 # Bluetooth
 etc/firmware/BCM43xx.hcd
