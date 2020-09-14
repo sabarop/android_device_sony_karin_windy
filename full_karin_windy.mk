@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit from karin_windy device
+# Inherit from karin-common device
 $(call inherit-product, device/sony/karin_windy/device.mk)
 
 # Set those variables here to overwrite the inherited values.
