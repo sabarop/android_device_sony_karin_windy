@@ -18,9 +18,6 @@ include device/sony/karin_windy/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/karin_windy
 
-# Use Snapdragon LLVM, if available
-TARGET_USE_SDCLANG := true
-
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
