@@ -18,9 +18,6 @@ include device/sony/kitakami-common/BoardConfigCommon.mk
 
 COMMON_DEVICE_PATH := device/sony/karin_windy
 
-# Use Snapdragon LLVM, if available
-TARGET_USE_SDCLANG := true
-
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
