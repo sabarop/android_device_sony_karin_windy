@@ -27,5 +27,7 @@ PRODUCT_NAME := lineage_karin_windy
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=karin_windy \
-    BUILD_FINGERPRINT=Sony/karin_windy/karin_windy:7.1.1/N-MR1-KITAKAMI-170609-1025/1:user/dev-keys \
     PRIVATE_BUILD_DESC="Sony/karin_windy/karin_windy:7.1.1/N-MR1-KITAKAMI-170609-1025/1:user/dev-keys"
+
+# Build fingerprint
+BUILD_FINGERPRINT=Sony/karin_windy/karin_windy:7.1.1/N-MR1-KITAKAMI-170609-1025/1:user/dev-keys
