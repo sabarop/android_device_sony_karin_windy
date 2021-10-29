@@ -30,5 +30,8 @@ TARGET_OTA_ASSERT_DEVICE := SGP712,karin_windy
 # Boot image/kernel
 TARGET_KERNEL_CONFIG := kitakami_karin_windy_defconfig
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_karin_windy
+
 # Inherit from the proprietary version
 -include vendor/sony/karin_windy/BoardConfigVendor.mk
