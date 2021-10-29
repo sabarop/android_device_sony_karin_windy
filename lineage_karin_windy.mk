@@ -19,6 +19,9 @@ $(call inherit-product, device/sony/karin_windy/full_karin_windy.mk)
 # Inherit some common LineageOS stuff
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
+# Shipping API level
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
+
 PRODUCT_NAME := lineage_karin_windy
 
 # Use the latest approved GMS identifiers
