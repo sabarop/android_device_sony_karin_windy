@@ -22,7 +22,7 @@ DEVICE_PATH := device/sony/karin_windy
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Radio
-TARGET_HAVE_RADIO := false
+BOARD_HAVE_RADIO := false
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2017-09-01

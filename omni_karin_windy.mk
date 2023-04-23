@@ -17,12 +17,15 @@
 $(call inherit-product, device/sony/karin_windy/full_karin_windy.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/omni/config/common_tablet.mk)
 
-PRODUCT_NAME := lineage_karin_windy
+PRODUCT_NAME := omni_karin_windy
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
   PRODUCT_NAME=karin \
   BUILD_FINGERPRINT=Sony/karin/karin:7.1.1/N-MR1-KITAKAMI-170920-0229/1:user/dev-keys \
   PRIVATE_BUILD_DESC="karin-user 7.1.1 N-MR1-KITAKAMI-170920-0229 1 dev-keys"
+
+# Inherit TWRP requirements
+$(call inherit-product, device/sony/karin_windy/twrp.mk)

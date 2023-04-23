@@ -19,3 +19,14 @@ ro.sf.lcd_density=320
 ro.semc.content.number=PA4
 ro.semc.ms_type_id=PM-0796-BV
 ro.semc.product.device=E65
+ro.semc.product.model=SGP712
+ro.semc.product.name=Xperia Z4 Tablet Wifi
+
+# Lockscreen rotation
+lockscreen.rot_override=true
+
+# TWRP
+libc.debug.malloc=0
+persist.sys.timezone=1
+ro.debuggable=1
+ro.product.device=karin_windy

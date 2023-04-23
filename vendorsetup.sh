@@ -15,5 +15,7 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_karin_windy.mk
+add_lunch_combo omni_karin_windy-eng
+add_lunch_combo omni_karin_windy-userdebug
+export ALLOW_MISSING_DEPENDENCIES=true
+
